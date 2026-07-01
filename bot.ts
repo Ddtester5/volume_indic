@@ -51,7 +51,7 @@ const bybitRestClient = new RestClientV5({
 // 1. СБОР ДАННЫХ: ВЕБСОКЕТ BINANCE (Агрегированные сделки)
 // ==========================================
 function connectBinanceWS() {
-    const binanceWsUrl = `wss://://binance.com{SYMBOL_BINANCE}@aggTrade`;
+    const binanceWsUrl = `wss://://binance.com${SYMBOL_BINANCE}@aggTrade`;
     const ws = new WebSocket(binanceWsUrl);
 
     ws.on('message', (data: string) => {
