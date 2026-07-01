@@ -1,0 +1,19 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/bot.js",
+    "dev": "tsx bot.ts"
+  },
+  "dependencies": {
+    "bybit-api": "^4.6.4",
+    "dotenv": "^17.4.2",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}

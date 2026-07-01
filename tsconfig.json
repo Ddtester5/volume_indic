@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                          /* Версия JavaScript для сборки */
+    "module": "CommonJS",                        /* Стандарт модулей для Node.js */
+    "lib": ["ES2022"],                           /* Библиотеки типов */
+    "allowJs": true,                             /* Разрешить компилировать JS файлы */
+    "outDir": "./dist",                          /* Папка, куда складывать готовый код */
+    "rootDir": "./",                             /* Корневая папка с исходным кодом */
+    "strict": true,                              /* Включить строгие проверки типов */
+    "noImplicitAny": false,                      /* Отключить ошибку, если тип не указан явно */
+    "esModuleInterop": true,                     /* Поддержка импортов CommonJS модулей */
+    "skipLibCheck": true,                        /* Пропускать проверку типов в node_modules */
+    "forceConsistentCasingInFileNames": true     /* Чувствительность к регистру в именах файлов */
+  },
+  "include": ["bot.ts"],                         /* Файлы, которые нужно компилировать */
+  "exclude": ["node_modules", "dist"]            /* Исключить папки из компиляции */
+}
